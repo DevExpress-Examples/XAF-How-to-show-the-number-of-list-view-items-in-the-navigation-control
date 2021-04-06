@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ItemCount.Module", "Module\CS\ItemCount.Module\ItemCount.Module.csproj", "{A748AE1D-8954-44EE-A51B-C97B4EFB8D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCount.Module.Win", "WinForms\CS\ItemCount.Module.Win\ItemCount.Module.Win.csproj", "{EB22FC33-C25A-4488-BC9A-27DDF21E3D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCount.Win", "WinForms\CS\ItemCount.Win\ItemCount.Win.csproj", "{69470A12-888F-4C44-A9EB-6A0E70AF9096}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCount.Module.Web", "ASP.NET\WebForms\CS\ItemCount.Module.Web\ItemCount.Module.Web.csproj", "{9C0165CF-6DAD-4A31-A913-8328B5B1A7CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ItemCount.Web", "ASP.NET\WebForms\CS\ItemCount.Web\ItemCount.Web.csproj", "{2FE2332C-F0EF-48D5-B7DC-C0FD7F452E1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A748AE1D-8954-44EE-A51B-C97B4EFB8D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A748AE1D-8954-44EE-A51B-C97B4EFB8D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A748AE1D-8954-44EE-A51B-C97B4EFB8D78}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{A748AE1D-8954-44EE-A51B-C97B4EFB8D78}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{A748AE1D-8954-44EE-A51B-C97B4EFB8D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A748AE1D-8954-44EE-A51B-C97B4EFB8D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB22FC33-C25A-4488-BC9A-27DDF21E3D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB22FC33-C25A-4488-BC9A-27DDF21E3D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB22FC33-C25A-4488-BC9A-27DDF21E3D58}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{EB22FC33-C25A-4488-BC9A-27DDF21E3D58}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{EB22FC33-C25A-4488-BC9A-27DDF21E3D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB22FC33-C25A-4488-BC9A-27DDF21E3D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69470A12-888F-4C44-A9EB-6A0E70AF9096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69470A12-888F-4C44-A9EB-6A0E70AF9096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69470A12-888F-4C44-A9EB-6A0E70AF9096}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{69470A12-888F-4C44-A9EB-6A0E70AF9096}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{69470A12-888F-4C44-A9EB-6A0E70AF9096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69470A12-888F-4C44-A9EB-6A0E70AF9096}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C0165CF-6DAD-4A31-A913-8328B5B1A7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C0165CF-6DAD-4A31-A913-8328B5B1A7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C0165CF-6DAD-4A31-A913-8328B5B1A7CF}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{9C0165CF-6DAD-4A31-A913-8328B5B1A7CF}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{9C0165CF-6DAD-4A31-A913-8328B5B1A7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C0165CF-6DAD-4A31-A913-8328B5B1A7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FE2332C-F0EF-48D5-B7DC-C0FD7F452E1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FE2332C-F0EF-48D5-B7DC-C0FD7F452E1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FE2332C-F0EF-48D5-B7DC-C0FD7F452E1E}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{2FE2332C-F0EF-48D5-B7DC-C0FD7F452E1E}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{2FE2332C-F0EF-48D5-B7DC-C0FD7F452E1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FE2332C-F0EF-48D5-B7DC-C0FD7F452E1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32A3ED0D-D130-424F-95E8-24D002A38906}
+	EndGlobalSection
+EndGlobal
