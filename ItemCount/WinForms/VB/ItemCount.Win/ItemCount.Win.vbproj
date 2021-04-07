@@ -23,7 +23,7 @@
         <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="5.0.1" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\ItemCount.Module.Win\ItemCount.Module.Win.csproj" />
-        <ProjectReference Include="..\..\..\Module\CS\ItemCount.Module\ItemCount.Module.csproj" />
+        <ProjectReference Include="..\ItemCount.Module.Win\ItemCount.Module.Win.vbproj" />
+        <ProjectReference Include="..\..\..\Module\VB\ItemCount.Module\ItemCount.Module.vbproj" />
     </ItemGroup>
 </Project>

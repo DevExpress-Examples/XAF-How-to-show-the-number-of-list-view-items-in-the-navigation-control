@@ -18,6 +18,6 @@
       <PackageReference Include="DevExpress.WindowsDesktop.XAF" Version="20.2.6-ctp" />
     </ItemGroup>
     <ItemGroup>
-        <ProjectReference Include="..\..\..\Module\CS\ItemCount.Module\ItemCount.Module.csproj" />
+        <ProjectReference Include="..\..\..\Module\VB\ItemCount.Module\ItemCount.Module.vbproj" />
     </ItemGroup>
 </Project>

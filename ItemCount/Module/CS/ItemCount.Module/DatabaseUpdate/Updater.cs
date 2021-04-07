@@ -17,11 +17,11 @@ namespace ItemCount.Module.DatabaseUpdate {
         }
         public override void UpdateDatabaseAfterUpdateSchema() {
             base.UpdateDatabaseAfterUpdateSchema();
-            Email theObject = ObjectSpace.FindObject<Email>(null);
-            if(theObject == null) {
+            Email email = ObjectSpace.FindObject<Email>(null);
+            if(email == null) {
                 for(int i = 1; i <= 5; i++) {
-                    theObject = ObjectSpace.CreateObject<Email>();
-                    theObject.Name = $"Mail {i}";
+                    email = ObjectSpace.CreateObject<Email>();
+                    email.Name = $"Mail {i}";
                 }
             }
 

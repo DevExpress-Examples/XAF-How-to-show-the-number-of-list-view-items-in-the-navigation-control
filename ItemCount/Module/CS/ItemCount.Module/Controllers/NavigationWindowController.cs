@@ -8,7 +8,7 @@ using DevExpress.ExpressApp.SystemModule;
 using ItemCount.Module.BusinessObjects;
 
 namespace ItemCount.Module.Controllers {
-    public class MyWindowController : WindowController {
+    public class NavigationWindowController : WindowController {
         private ShowNavigationItemController navigationController;
         protected override void OnFrameAssigned() {
             UnsubscribeFromEvents();

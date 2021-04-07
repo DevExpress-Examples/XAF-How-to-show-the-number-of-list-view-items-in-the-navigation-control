@@ -3,7 +3,7 @@ using DevExpress.ExpressApp.SystemModule;
 using ItemCount.Module.BusinessObjects;
 
 namespace ItemCount.Module.Controllers {
-    public class MyViewController : ViewController {
+    public class NavigationViewController : ViewController {
         protected override void OnActivated() {
             base.OnActivated();
             View.ObjectSpace.Committed += ObjectSpace_Committed;
