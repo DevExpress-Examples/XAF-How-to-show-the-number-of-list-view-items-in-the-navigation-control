@@ -7,7 +7,7 @@ In this example, we demonstrate how to show the number of List View items in the
 
 <img src="./media/example-win.png" width="600">
 
-### ASP.NET Web Forms & Blazor
+### ASP.NET Web Forms
 
 <img src="./media/example-web.png" width="600">
 
