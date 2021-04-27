@@ -3,7 +3,10 @@ using DevExpress.ExpressApp.SystemModule;
 using ItemCount.Module.BusinessObjects;
 
 namespace ItemCount.Module.Controllers {
-    public class NavigationViewController : ViewController {
+    public class RefreshNavigationController : ViewController {
+        public RefreshNavigationController() {
+            TargetViewNesting = Nesting.Root;
+        }
         protected override void OnActivated() {
             base.OnActivated();
             View.ObjectSpace.Committed += ObjectSpace_Committed;
@@ -11,7 +14,9 @@ namespace ItemCount.Module.Controllers {
         private void ObjectSpace_Committed(object sender, System.EventArgs e) {
             ShowNavigationItemController controller = Application.MainWindow.GetController<ShowNavigationItemController>();
             if(controller != null) {
+                controller.ShowNavigationItemAction.BeginUpdate();
                 controller.RecreateNavigationItems();
+                controller.ShowNavigationItemAction.EndUpdate();
             }
         }
         protected override void OnDeactivated() {

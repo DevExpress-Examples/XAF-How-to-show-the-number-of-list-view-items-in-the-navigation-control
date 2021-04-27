@@ -1,9 +1,11 @@
 ﻿Imports DevExpress.ExpressApp
 Imports DevExpress.ExpressApp.SystemModule
 
-Public Class NavigationViewController
+Public Class RefreshNavigationController
     Inherits ViewController
-
+    Public Sub New()
+        TargetViewNesting = Nesting.Root
+    End Sub
     Protected Overrides Sub OnActivated()
         MyBase.OnActivated()
         AddHandler View.ObjectSpace.Committed, AddressOf ObjectSpace_Committed
@@ -13,7 +15,9 @@ Public Class NavigationViewController
         Dim controller As ShowNavigationItemController = Application.MainWindow.GetController(Of ShowNavigationItemController)()
 
         If controller IsNot Nothing Then
+            controller.ShowNavigationItemAction.BeginUpdate()
             controller.RecreateNavigationItems()
+            controller.ShowNavigationItemAction.EndUpdate()
         End If
     End Sub
 

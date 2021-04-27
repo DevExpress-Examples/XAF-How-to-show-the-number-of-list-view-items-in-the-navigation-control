@@ -1,9 +1,10 @@
 ﻿Imports System.Net
+Imports DevExpress.Data.Filtering
 Imports DevExpress.ExpressApp
 Imports DevExpress.ExpressApp.Model
 Imports DevExpress.ExpressApp.SystemModule
 
-Public Class NavigationWindowController
+Public Class NavigationObjectCountController
     Inherits WindowController
 
     Private navigationController As ShowNavigationItemController
@@ -22,10 +23,8 @@ Public Class NavigationWindowController
         If e.ModelNavigationItem.Id = "Email_ListView" Then
             Dim objectSpace As IObjectSpace = Application.CreateObjectSpace(GetType(Email))
             Dim modelListView As IModelListView = CType(e.ModelNavigationItem.View, IModelListView)
-            Dim objectsCount As Integer = objectSpace.GetObjectsCount(GetType(Email), Nothing)
+            Dim objectsCount As Integer = objectSpace.GetObjectsCount(GetType(Email), CriteriaOperator.Parse(modelListView.Criteria))
             e.NavigationItem.Caption = "Inbox" & (If(objectsCount > 0, $" ({objectsCount})", String.Empty))
-        Else
-            e.NavigationItem.Caption = WebUtility.HtmlEncode(e.NavigationItem.Caption)
         End If
     End Sub
 
