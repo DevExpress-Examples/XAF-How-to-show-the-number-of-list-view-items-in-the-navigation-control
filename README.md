@@ -13,6 +13,6 @@ In this example, we demonstrate how to show the number of List View items in the
 
 ## Solution
 For implementation details, refer to the following links:
-* [RefreshNavigationCotnroller.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/RefreshNavigationCotnroller.cs) 
+* [RefreshNavigationController.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/RefreshNavigationController.cs) 
 * [NavigationObjectCountController.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/NavigationObjectCountController.cs) 
 
