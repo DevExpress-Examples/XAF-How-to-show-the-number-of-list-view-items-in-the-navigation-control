@@ -5,6 +5,7 @@ Public Class RefreshNavigationController
     Inherits ViewController
     Public Sub New()
         TargetViewNesting = Nesting.Root
+        TargetObjectType = GetType(Email)
     End Sub
     Protected Overrides Sub OnActivated()
         MyBase.OnActivated()

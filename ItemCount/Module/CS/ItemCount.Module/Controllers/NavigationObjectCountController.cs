@@ -21,10 +21,11 @@ namespace ItemCount.Module.Controllers {
         }
         void NavigationItemCreated(object sender, NavigationItemCreatedEventArgs e) {
             if(e.ModelNavigationItem.Id == "Email_ListView") {
-                IObjectSpace objectSpace = Application.CreateObjectSpace(typeof(Email));
-                IModelListView modelListView = (IModelListView)e.ModelNavigationItem.View;
-                int objectsCount = objectSpace.GetObjectsCount(typeof(Email), CriteriaOperator.Parse(modelListView.Criteria));
-                e.NavigationItem.Caption = "Inbox" + (objectsCount > 0 ? $" ({objectsCount})" : string.Empty);
+                using(IObjectSpace objectSpace = Application.CreateObjectSpace(typeof(Email))) {
+                    IModelListView modelListView = (IModelListView)e.ModelNavigationItem.View;
+                    int objectsCount = objectSpace.GetObjectsCount(typeof(Email), CriteriaOperator.Parse(modelListView.Criteria));
+                    e.NavigationItem.Caption = "Inbox" + (objectsCount > 0 ? $" ({objectsCount})" : string.Empty);
+                }
             }
         }
         private void UnsubscribeFromEvents() {

@@ -21,10 +21,11 @@ Public Class NavigationObjectCountController
 
     Private Sub NavigationItemCreated(ByVal sender As Object, ByVal e As NavigationItemCreatedEventArgs)
         If e.ModelNavigationItem.Id = "Email_ListView" Then
-            Dim objectSpace As IObjectSpace = Application.CreateObjectSpace(GetType(Email))
-            Dim modelListView As IModelListView = CType(e.ModelNavigationItem.View, IModelListView)
-            Dim objectsCount As Integer = objectSpace.GetObjectsCount(GetType(Email), CriteriaOperator.Parse(modelListView.Criteria))
-            e.NavigationItem.Caption = "Inbox" & (If(objectsCount > 0, $" ({objectsCount})", String.Empty))
+            Using objectSpace As IObjectSpace = Application.CreateObjectSpace(GetType(Email))
+                Dim modelListView As IModelListView = CType(e.ModelNavigationItem.View, IModelListView)
+                Dim objectsCount As Integer = objectSpace.GetObjectsCount(GetType(Email), CriteriaOperator.Parse(modelListView.Criteria))
+                e.NavigationItem.Caption = "Inbox" & (If(objectsCount > 0, $" ({objectsCount})", String.Empty))
+            End Using
         End If
     End Sub
 

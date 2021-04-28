@@ -6,6 +6,7 @@ namespace ItemCount.Module.Controllers {
     public class RefreshNavigationController : ViewController {
         public RefreshNavigationController() {
             TargetViewNesting = Nesting.Root;
+            TargetObjectType = typeof(Email);
         }
         protected override void OnActivated() {
             base.OnActivated();

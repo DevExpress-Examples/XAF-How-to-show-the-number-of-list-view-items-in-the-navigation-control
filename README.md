@@ -18,3 +18,5 @@ For implementation details, refer to the following links:
 * [RefreshNavigationController.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/RefreshNavigationController.cs) 
 * [NavigationObjectCountController.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/NavigationObjectCountController.cs) 
 
+**Note**. Although this example demonstrates a platform-agnostic way of updating navigation item captions, the current version of the Navigation System in XAF Blazor does not support restoring the control state. We will enhance the Navigation System functionality in future versions.
+
