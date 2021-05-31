@@ -24,5 +24,5 @@ In this example, we demonstrate how to show the number of List View items in the
 
 **Note**. Although this example demonstrates a platform-agnostic way of updating navigation item captions, the current version of the Navigation System in XAF Blazor does not support restoring the control state. We will enhance the Navigation System functionality in future versions.
 
-***See also***
+***See also:***  
 [XAF - How to show the number of nested List View items in tab captions](https://github.com/DevExpress-Examples/XAF-How-to-show-the-number-of-nested-list-views-items-in-tab-captions)
