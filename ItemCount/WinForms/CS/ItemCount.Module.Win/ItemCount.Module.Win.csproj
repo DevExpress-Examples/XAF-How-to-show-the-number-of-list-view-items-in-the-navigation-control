@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>Library</OutputType>
         <TargetFramework>net5.0-windows</TargetFramework>
@@ -14,8 +14,8 @@
 		<EmbeddedResource Include="Model.DesignedDiffs.xafml" />
 	  </ItemGroup>
     <ItemGroup>
-      <PackageReference Include="DevExpress.ExpressApp" Version="20.2.6" />
-      <PackageReference Include="DevExpress.WindowsDesktop.XAF" Version="20.2.6-ctp" />
+      <PackageReference Include="DevExpress.ExpressApp" Version="20.2.7" />
+      <PackageReference Include="DevExpress.WindowsDesktop.XAF" Version="20.2.7-ctp" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\..\Module\CS\ItemCount.Module\ItemCount.Module.csproj" />

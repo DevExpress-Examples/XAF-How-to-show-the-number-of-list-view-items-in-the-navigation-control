@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <OutputType>WinExe</OutputType>
         <TargetFramework>net5.0-windows</TargetFramework>
@@ -16,8 +16,8 @@
 		</Content>
 	  </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="DevExpress.ExpressApp" Version="20.2.6" />
-        <PackageReference Include="DevExpress.WindowsDesktop.XAF" Version="20.2.6-ctp" />
+        <PackageReference Include="DevExpress.ExpressApp" Version="20.2.7" />
+        <PackageReference Include="DevExpress.WindowsDesktop.XAF" Version="20.2.7-ctp" />
         <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="3.9.0" />
         <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
         <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="5.0.1" />
