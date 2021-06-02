@@ -16,7 +16,7 @@ In this example, we demonstrate how to show the number of List View items in the
 
 ### ASP.NET Core Blazor
 
-Although this example demonstrates a platform-agnostic way of updating navigation item captions, the current version of XAF's Blazor Navigation System does not support restoring the control state. We will enhance the Navigation System functionality in future versions.
+Although this example demonstrates a platform-agnostic way of updating navigation item captions, the current version of XAF's Blazor Navigation System does not support restoring the control state. Please update your components to v21.1.3+.
 
 
 ## Implementation Steps
