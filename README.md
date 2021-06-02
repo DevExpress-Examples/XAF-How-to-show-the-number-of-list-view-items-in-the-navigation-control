@@ -16,7 +16,7 @@ In this example, we demonstrate how to show the number of List View items in the
 
 ### ASP.NET Core Blazor
 
-<imd src="./media/example-blazor.png" width="600">
+<img src="./media/example-blazor.png" width="600">
 
 
 ## Implementation Steps
