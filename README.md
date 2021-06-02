@@ -1,6 +1,7 @@
 # XAF - How to show the number of List View items in the Navigation Control
 
 ## Scenario
+
 In this example, we demonstrate how to show the number of List View items in the Navigation Control. You can add or delete items in List Views. The record count in navigation item captions will be automatically updated. 
 
 ### WinForms
@@ -11,8 +12,11 @@ In this example, we demonstrate how to show the number of List View items in the
 
 <img src="./media/example-web.png" width="600">
 
+
 ### ASP.NET Core Blazor
+
 Although this example demonstrates a platform-agnostic way of updating navigation item captions, the current version of XAF's Blazor Navigation System does not support restoring the control state. We will enhance the Navigation System functionality in future versions.
+
 
 ## Implementation Steps
 
@@ -26,5 +30,6 @@ Although this example demonstrates a platform-agnostic way of updating navigatio
 <!-- default file list end -->
 
 ## See Also
+
 - [Access Controller’s Events and Properties](https://docs.devexpress.com/eXpressAppFramework/112676/concepts/controllers-and-actions/customize-controllers-and-actions#access-controllers-events-and-properties)
 - [XAF - How to show the number of nested List View items in tab captions](https://github.com/DevExpress-Examples/XAF-How-to-show-the-number-of-nested-list-views-items-in-tab-captions)
