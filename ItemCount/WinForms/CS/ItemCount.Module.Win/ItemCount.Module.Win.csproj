@@ -14,31 +14,31 @@
 		<EmbeddedResource Include="Model.DesignedDiffs.xafml" />
 	  </ItemGroup>
     <ItemGroup>
-      <PackageReference Include="DevExpress.ExpressApp" Version="21.1.3" />
-      <PackageReference Include="DevExpress.ExpressApp.AuditTrail" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Chart.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.CloneObject" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Dashboards.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.FileAttachment.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Kpi" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Objects" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Notifications.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Office.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.PivotChart.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.PivotGrid.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.ReportsV2.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Scheduler.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.ScriptRecorder.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.StateMachine" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.TreeListEditors.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Validation.Win" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.ViewVariantsModule" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.EasyTest.WinAdapter" Version="21.1.3" />
-    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="21.1.3" />
-    <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="21.1.3" />
+      <PackageReference Include="DevExpress.ExpressApp" Version="21.1.4" />
+      <PackageReference Include="DevExpress.ExpressApp.AuditTrail" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Chart.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.CloneObject" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.ConditionalAppearance" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Dashboards.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.FileAttachment.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Kpi" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Objects" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Notifications.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Office.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.PivotChart.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.PivotGrid.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.ReportsV2.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Scheduler.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.ScriptRecorder.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Security.Xpo" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.StateMachine" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.TreeListEditors.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Validation.Win" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.ViewVariantsModule" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.EasyTest.WinAdapter" Version="21.1.4" />
+    <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="21.1.4" />
+    <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="21.1.4" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\..\Module\CS\ItemCount.Module\ItemCount.Module.csproj" />
