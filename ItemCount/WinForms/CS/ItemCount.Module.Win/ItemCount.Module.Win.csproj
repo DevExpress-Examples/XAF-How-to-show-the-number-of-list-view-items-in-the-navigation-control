@@ -14,8 +14,8 @@
 		<EmbeddedResource Include="Model.DesignedDiffs.xafml" />
 	  </ItemGroup>
     <ItemGroup>
-      <PackageReference Include="DevExpress.ExpressApp" Version="20.2.8" />
-      <PackageReference Include="DevExpress.WindowsDesktop.XAF" Version="20.2.8-ctp" />
+      <PackageReference Include="DevExpress.ExpressApp" Version="20.2.9" />
+      <PackageReference Include="DevExpress.WindowsDesktop.XAF" Version="20.2.9-ctp" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\..\..\Module\CS\ItemCount.Module\ItemCount.Module.csproj" />
