@@ -41,7 +41,7 @@
     <PackageReference Include="DevExpress.ExpressApp.EasyTest.WinAdapter" Version="21.1.6" />
     <PackageReference Include="DevExpress.ExpressApp.Xpo" Version="21.1.6" />
     <PackageReference Include="DevExpress.Persistent.BaseImpl" Version="21.1.6" />
-        <PackageReference Include="System.Data.SqlClient" Version="4.8" />
+        <PackageReference Include="System.Data.SqlClient" Version="4.8.*" />
         <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="5.0.1" />
     </ItemGroup>
     <ItemGroup>
