@@ -9,19 +9,9 @@
 
 In this example, we demonstrate how to show the number of List View items in the Navigation Control. You can add or delete items in List Views. The record count in navigation item captions will be automatically updated. 
 
-### WinForms
-
-<img src="./media/example-win.png" width="600">
-
-
-### ASP.NET Web Forms
-
-<img src="./media/example-web.png" width="600">
-
-
 ### ASP.NET Core Blazor
 
-<img src="./media/example-blazor.png" width="600">
+
 
 
 ## Implementation Steps
@@ -31,8 +21,8 @@ In this example, we demonstrate how to show the number of List View items in the
 
 <!-- default file list --> 
 *Files to look at*:
-* [RefreshNavigationController.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/RefreshNavigationController.cs) 
-* [NavigationObjectCountController.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/NavigationObjectCountController.cs) 
+* [RefreshNavigationController.cs](./CS/EFCore/ItemCountEF/ItemCountEF.Module/Controllers/RefreshNavigationController.cs) 
+* [NavigationObjectCountController.cs](./CS/EFCore/ItemCountEF/ItemCountEF.Module/Controllers/NavigationObjectCountController.cs) 
 <!-- default file list end -->
 
 ## See Also
