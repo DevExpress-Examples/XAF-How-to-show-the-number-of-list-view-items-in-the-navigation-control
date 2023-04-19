@@ -30,12 +30,16 @@ In this example, we demonstrate how to show the number of List View items in the
 2. Create a Window Controller. Handle the [ShowNavigationItemController.NavigationItemCreated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ShowNavigationItemController.NavigationItemCreated) event in the overridden **OnFrameAssigned** method. In this event handler, specify the item caption via the e.NavigationItem.Caption property.
 
 <!-- default file list --> 
-*Files to look at*:
+## Files to Review
+
 * [RefreshNavigationController.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/RefreshNavigationController.cs) 
 * [NavigationObjectCountController.cs](./ItemCount/Module/CS/ItemCount.Module/Controllers/NavigationObjectCountController.cs) 
 <!-- default file list end -->
 
-## See Also
+## Documentation
 
 - [Access Controller’s Events and Properties](https://docs.devexpress.com/eXpressAppFramework/112676/concepts/controllers-and-actions/customize-controllers-and-actions#access-controllers-events-and-properties)
+
+## More Examples
+
 - [XAF - How to show the number of nested List View items in tab captions](https://github.com/DevExpress-Examples/XAF-How-to-show-the-number-of-nested-list-views-items-in-tab-captions)
