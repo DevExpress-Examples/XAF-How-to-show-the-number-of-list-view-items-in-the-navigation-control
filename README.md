@@ -7,19 +7,18 @@
 
 In this example, we demonstrate how to show the number of List View items in the Navigation Control. You can add or delete items in List Views. The record count in navigation item captions will be automatically updated. 
 
-### WinForms
+**ASP.NET Core Blazor**
+
+<img src="./media/example-blazor.png" width="600">
+
+**WinForms**
 
 <img src="./media/example-win.png" width="600">
 
 
-### ASP.NET Web Forms
+**ASP.NET Web Forms**
 
 <img src="./media/example-web.png" width="600">
-
-
-### ASP.NET Core Blazor
-
-<img src="./media/example-blazor.png" width="600">
 
 
 ## Implementation Steps
