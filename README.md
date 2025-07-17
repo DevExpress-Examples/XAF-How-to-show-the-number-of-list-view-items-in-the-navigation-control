@@ -17,11 +17,11 @@ This example displays the number of List View items in the Navigation Control. W
 Follow the steps below to customize navigation item captions:
 
 1. Create a Window Controller ([NavigationObjectCountController.cs](./CS/EFCore/ItemCountEF/ItemCountEF.Module/Controllers/NavigationObjectCountController.cs)). 
-    1. In the [FrameAssigned](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller.FrameAssigned) event handler, subscribe to the [NavigationItemCreated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ShowNavigationItemController.NavigationItemCreated) event. 
-    1. Use the [NavigationItem](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.NavigationItemCreatedEventArgs.NavigationItem).[Caption](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.ChoiceActionItem.Caption) event argument property to specify the custom caption (add the number of items).
+    * In the [FrameAssigned](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller.FrameAssigned) event handler, subscribe to the [NavigationItemCreated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ShowNavigationItemController.NavigationItemCreated) event. 
+    * Use the [NavigationItem](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.NavigationItemCreatedEventArgs.NavigationItem).[Caption](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.ChoiceActionItem.Caption) event argument property to specify the custom caption (add the number of items).
 1. Create a View Controller ([RefreshNavigationController.cs](./CS/EFCore/ItemCountEF/ItemCountEF.Module/Controllers/RefreshNavigationController.cs)).
-    1. In the [Activated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller.Activated) event handler, subscribe to the [IObjectSpace.Committed](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IObjectSpace.Committed) event.
-    1. Call the [RecreateNavigationItems](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ShowNavigationItemController.RecreateNavigationItems) method to recreate navigation items whenever the underlying data changes.
+    * In the [Activated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller.Activated) event handler, subscribe to the [IObjectSpace.Committed](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IObjectSpace.Committed) event.
+    * Call the [RecreateNavigationItems](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ShowNavigationItemController.RecreateNavigationItems) method to recreate navigation items whenever the underlying data changes.
 
 ## Files to Review
 
