@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # XAF - How to show the number of List View items in the Navigation Control
 
-This example displays the number of List View items in the Navigation Control. When a user adds or deletes List View items, the navigation item captions update the record count automatically.
+This example displays the number of List View items in the Navigation Control. When a user adds or deletes List View items, navigation item captions update the record count automatically.
 
 ### ASP.NET Core Blazor
 
@@ -20,7 +20,7 @@ Follow the steps below to customize navigation item captions:
     * Use the [NavigationItem](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.NavigationItemCreatedEventArgs.NavigationItem).[Caption](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Actions.ChoiceActionItem.Caption) event argument property to specify the custom caption (add the number of items).
 1. Create a View Controller ([RefreshNavigationController.cs](./CS/EFCore/ItemCountEF/ItemCountEF.Module/Controllers/RefreshNavigationController.cs)).
     * In the [Activated](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.Controller.Activated) event handler, subscribe to the [IObjectSpace.Committed](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.IObjectSpace.Committed) event.
-    * Call the [RecreateNavigationItems](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ShowNavigationItemController.RecreateNavigationItems) method to recreate navigation items whenever the underlying data changes.
+    * Call the [RecreateNavigationItems](https://docs.devexpress.com/eXpressAppFramework/DevExpress.ExpressApp.SystemModule.ShowNavigationItemController.RecreateNavigationItems) method to recreate navigation items whenever underlying data changes.
 
 ## Files to Review
 
