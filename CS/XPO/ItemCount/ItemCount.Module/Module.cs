@@ -22,7 +22,6 @@ public sealed class ItemCountModule : ModuleBase {
 		// ItemCountModule
 		// 
 		RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.SystemModule.SystemModule));
-		RequiredModuleTypes.Add(typeof(DevExpress.ExpressApp.Objects.BusinessClassLibraryCustomizationModule));
     }
     public override IEnumerable<ModuleUpdater> GetModuleUpdaters(IObjectSpace objectSpace, Version versionFromDB) {
         ModuleUpdater updater = new DatabaseUpdate.Updater(objectSpace, versionFromDB);
