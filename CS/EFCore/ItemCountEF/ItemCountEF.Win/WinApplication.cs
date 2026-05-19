@@ -18,7 +18,6 @@ public class ItemCountEFWindowsFormsApplication : WinApplication {
 		SplashScreen = new DXSplashScreen(typeof(XafSplashScreen), new DefaultOverlayFormOptions());
         ApplicationName = "ItemCountEF";
         CheckCompatibilityType = DevExpress.ExpressApp.CheckCompatibilityType.DatabaseSchema;
-        UseOldTemplates = false;
         DatabaseVersionMismatch += ItemCountEFWindowsFormsApplication_DatabaseVersionMismatch;
         CustomizeLanguagesList += ItemCountEFWindowsFormsApplication_CustomizeLanguagesList;
     }
